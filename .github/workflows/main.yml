@@ -44,4 +44,4 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "jsc-heroku" #Must be unique in Heroku
-          heroku_email: ${{secrets.EMAIL}}
+          heroku_email: ${{secrets.MY_EMAIL}}
